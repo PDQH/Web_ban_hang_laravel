@@ -1,0 +1,99 @@
+/* Custom CSS */
+/* edit & delete button CSS */
+.mini-btn.btn-icon {
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+}
+
+td.operation-buttons a:first-child {
+    margin-right: 10px;
+}
+
+.btn i {
+    font-size: 18px;
+}
+
+/* Table Responsive */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    max-height: 375px;
+    border-radius: 5px;
+}
+
+.table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: rgb(249, 250, 252);
+}
+
+th.sticky-column,
+td.operation-buttons {
+    position: sticky;
+    right: 0;
+    z-index: 1;
+}
+
+td.operation-buttons {
+    background-color: #fff;
+}
+
+.table-hover tbody tr:hover td.operation-buttons {
+    background-color: #f0f1f6;
+}
+
+/* Icon show & hide */
+a.container_icon {
+    margin: 0 0 0 20px;
+}
+.hide_icon {
+    font-size: 20px;
+    color: #e52d27;
+}
+
+.show_icon {
+    font-size: 20px;
+    color: #44ce42;
+}
+
+.table th.stt,
+.table td.stt {
+    width: 10px !important;
+}
+
+.container_total {
+    width: 30%;
+    color: #212529;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid #e0e0e0;
+
+    padding: 0 10px;
+    border-radius: 2px;
+}
+
+.container_total .total span {
+    float: right;
+}
+
+.container_total .total {
+    border-bottom: 1px solid #e0e0e0;
+    margin: 10px 0;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer .container_button {
+    margin: auto 0;
+}
+
+.container_button {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}

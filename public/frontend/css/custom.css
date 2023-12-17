@@ -1,0 +1,97 @@
+.container_pro_image {
+    display: flex;
+    height: 255px;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay_image span {
+    display: none;
+    color: #fff;
+    background-color: #0074e1;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+.overlay_image span:hover {
+    opacity: 0.8;
+}
+
+.single-products:hover .overlay_image span {
+    display: block;
+}
+.product-overlay form {
+    height: 64%;
+}
+
+.product-overlay .overlay_image {
+    background-color: rgba(66, 139, 202, 0.2);
+    text-align: center;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Search button */
+.search_box {
+    display: flex;
+}
+
+.container_btn_search {
+    position: relative;
+    display: block;
+}
+
+.container_btn_search:hover {
+    opacity: 0.9;
+    color: #fff;
+}
+
+.container_btn_search input {
+    width: 50px;
+}
+
+.container_btn_search i {
+    position: absolute;
+    left: 19px;
+    bottom: 9px;
+}
+
+.container_btn_search i:hover {
+    cursor: pointer;
+}
+
+.review-payment h1 {
+    color: #0074e1;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+input.add-to-cart {
+    background-color: #0074e1;
+    margin-right: 100px;
+    color: #fff;
+}
+
+.container_coupon {
+    border: 1px solid #e6e4df;
+    width: auto;
+    /* margin-left: 50%; */
+    padding: 5px;
+}
+
+.container_coupon form {
+    display: flex;
+}
+
+.container_coupon form input {
+    outline: none;
+    margin: 0 6px;
+}
+
+.container_coupon form input.check_coupon {
+    background-color: #0074e1;
+    color: #fff;
+}
