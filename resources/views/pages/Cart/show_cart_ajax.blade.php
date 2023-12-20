@@ -81,7 +81,7 @@
                                             tất cả giỏ hàng</a>
                                     </td>
                                     <td>
-                                        @if (Session::get('customer'))
+                                        @if (Session::get('customer_id'))
                                             <a class="btn btn-default check_out" href="{{ URL::to('/checkout') }}">Thanh
                                                 toán</a>
                                         @else
