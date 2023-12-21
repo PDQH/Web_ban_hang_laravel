@@ -356,7 +356,7 @@
                     <div class="col-sm-10">
                         <div class="companyinfo">
                             <h2><span>392</span>-STORE</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
+                            <p>Website Bán hàng 392-STORE là sản phẩm được tạo bởi Phạm Đoàn Quang Huy.</p>
                         </div>
                     </div>
                     {{-- <div class="col-sm-7">

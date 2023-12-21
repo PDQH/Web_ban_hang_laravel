@@ -1609,6 +1609,7 @@ h2.title {
     color: #696763;
     float: left;
     font-size: 16px;
+    max-width: 60px;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
