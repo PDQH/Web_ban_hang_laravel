@@ -53,12 +53,12 @@
                         </div>
                     </div>
 
-                    <div class="choose">
+                    {{-- <div class="choose">
                         <ul class="nav nav-pills nav-justified">
                             <li><a href="#"><i class="fa-solid fa-heart-circle-plus"></i>Thêm vào yêu thích</a></li>
                             <li><a href="#"><i class="fa-solid fa-square-plus"></i>Thêm vào so sánh</a></li>
                         </ul>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         @endforeach

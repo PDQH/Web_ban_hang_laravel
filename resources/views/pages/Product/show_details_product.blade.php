@@ -6,7 +6,7 @@
                 <div class="view-product">
                     <img src="{{ URL::to('/public/uploads/product/' . $value->product_image) }}" alt="" />
                 </div>
-                <div id="similar-product" class="carousel slide" data-ride="carousel">
+                {{-- <div id="similar-product" class="carousel slide" data-ride="carousel">
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
@@ -27,7 +27,7 @@
                     <a class="right item-control" href="#similar-product" data-slide="next">
                         <i class="fa fa-angle-right"></i>
                     </a>
-                </div>
+                </div> --}}
 
             </div>
             <div class="col-sm-7">

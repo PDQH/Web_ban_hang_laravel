@@ -95,3 +95,9 @@ input.add-to-cart {
     background-color: #0074e1;
     color: #fff;
 }
+
+.tab-content {
+    width: 100%;
+    max-height: 360px;
+    overflow-x: auto;
+}

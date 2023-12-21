@@ -16,8 +16,8 @@
                 <div class="row">
                     <div class="col-sm-10 clearfix">
                         <div class="bill-to">
-                            <p>Điền thông tin nhận hàng</p>
                             <div class="form-one">
+                                <p>Điền thông tin nhận hàng</p>
                                 <form method="POST">
                                     @csrf
                                     <input type="text" name="shipping_name" class="shipping_name"
@@ -57,7 +57,8 @@
                                         class="btn btn-primary btn-sm send_order">
                                 </form>
                             </div>
-                            <div class="form-one">
+                            <div class="form-two">
+                                <p>Chọn khu vực để tính phí vận chuyển</p>
                                 <form>
                                     @csrf
                                     <div class="form-group">
@@ -100,7 +101,9 @@
                                 </form>
                             </div>
                         </div>
+
                     </div>
+
                     <div class="col-sm-10 clearfix">
                         @if (Session()->has('message'))
                             <div class="alert alert-success">

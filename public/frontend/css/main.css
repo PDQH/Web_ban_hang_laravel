@@ -351,7 +351,7 @@ ul.sub-menu {
 }
 
 .companyinfo h2 {
-    color: #b4b1ab;
+    color: #f19c10;
     font-family: abel;
     font-size: 27px;
     text-transform: uppercase;
@@ -819,7 +819,7 @@ h2.title {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    margin: 0 15px;
+    margin: 6px 15px;
     text-transform: uppercase;
     margin-bottom: 30px;
     position: relative;
@@ -1503,7 +1503,7 @@ h2.title {
 
 .breadcrumbs .breadcrumb {
     background: transparent;
-    margin-bottom: 75px;
+    margin-bottom: 10px;
     padding-left: 0;
 }
 
